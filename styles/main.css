@@ -1,0 +1,14 @@
+body {
+  padding: 4px;
+  background-color: #ddd;
+  font-family:'Questrial', sans-serif;
+  font-size:20px
+}
+canvas {
+  background-color: blue;
+  height: 650px;
+}
+#blocklyDiv {
+  height: 650px;
+  width: 400px;
+}
