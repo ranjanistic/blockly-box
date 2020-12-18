@@ -5,10 +5,17 @@ body {
   font-size:20px
 }
 canvas {
-  background-color: blue;
-  height: 650px;
+  background-color: rgb(62, 182, 223);
+  box-shadow: 4px 2px 24px #00000022;
+  border-radius: 12px;
+}
+button{
+  outline:none;
+  box-shadow: 4px 2px 24px #00000022;
 }
 #blocklyDiv {
-  height: 650px;
+  height: 600px;
   width: 400px;
+  box-shadow: 4px 2px 24px #00000022;
+  border-radius: 12px;
 }
