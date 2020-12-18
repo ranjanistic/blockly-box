@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/w3.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="blockly/blockly_compressed.js"></script>
+    <script src="blockly/blocks_compressed.js"></script>
+    <script src="blockly/javascript_compressed.js"></script>
+    <script src="blockly/en.js"></script>
+    <script src="scripts/index.js"></script>
+    <title>Blocky Ball</title>
+  </head>
+  <body>
+    <div class="w3-col w3-third">
+      <div id="blocklyDiv"></div>
+      <button class="w3-button w3-circle w3-ripple w3-red" id="reset"><i class="fa fa-trash" aria-hidden="true"></i></button>
+      <button class="w3-button w3-circle w3-ripple w3-grey" id="undo"><i class="fa fa-undo" aria-hidden="true"></i></button>
+      <button class="w3-button w3-circle w3-ripple w3-teal" id="redo"><i class="fa fa-redo" aria-hidden="true"></i></button>
+      <button class="w3-button w3-circle w3-ripple w3-indigo" id="shoot"><i class="fa fa-play" aria-hidden="true"></i></button>
+    </div>
+    <canvas id="canvas" class="w3-col w3-twothird"></canvas>
+    <xml
+      xmlns="https://developers.google.com/blockly/xml"
+      id="toolbox"
+      style="display: none"
+    >
+      <block type="text"></block>
+      <block type="text_print"></block>
+    </xml>
+  </body>
+</html>
