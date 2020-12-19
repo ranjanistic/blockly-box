@@ -1,21 +1,26 @@
 body {
   padding: 4px;
-  background-color: #ddd;
+  background-color: #0a376b;
+  color:#eee;
   font-family:'Questrial', sans-serif;
   font-size:20px
 }
 canvas {
-  background-color: rgb(62, 182, 223);
+  background-color: #c8c9e9;
   box-shadow: 4px 2px 24px #00000022;
+  border: solid black 4px;
   border-radius: 12px;
 }
 button{
   outline:none;
+  
   box-shadow: 4px 2px 24px #00000022;
 }
 #blocklyDiv {
   height: 600px;
   width: 400px;
+  border: solid black 4px;
   box-shadow: 4px 2px 24px #00000022;
   border-radius: 12px;
+  color:black
 }
