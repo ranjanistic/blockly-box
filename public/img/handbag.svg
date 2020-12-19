@@ -68,7 +68,7 @@
      transform="translate(0,-97)">
     <g
        id="g858-5"
-       transform="matrix(0.2086985,0,0,0.2086985,-1.881242,73.3862)"
+       transform="matrix(0.2086985,0,0,0.19565091,-1.881242,77.002191)"
        style="opacity:0.197959;fill:#333333;stroke:#333333;filter:url(#filter917)">
       <ellipse
          style="opacity:1;fill:#333333;fill-opacity:0;fill-rule:nonzero;stroke:#333333;stroke-width:5.237;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
@@ -189,7 +189,7 @@
     <path
        id="rect815"
        style="fill:#fff000;fill-opacity:1;fill-rule:nonzero;stroke:#ff2a2a;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       d="M 1.7245985e-6,109.15248 C 1.4050471,115.97004 3.765119,122.66732 7.9346818,129.13673 l 24.2404072,0.0224 c 3.155267,-5.79095 6.749595,-10.89076 7.792589,-20.0067 z"
+       d="M 6.1359764e-7,111.00001 C 1.4050573,117.81531 3.7651482,124.51028 7.9347446,130.9776 L 32.175348,131 c 3.155292,-5.78906 6.749649,-10.88715 7.792651,-20 z"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
@@ -206,13 +206,6 @@
        transform="matrix(-0.97889478,0.20436491,-0.2297258,-0.97325539,0,0)"
        sodipodi:arc-type="arc"
        d="m 17.44987,-111.65974 a 11.554261,10.745681 0 0 1 -7.405559,10.02909 11.554261,10.745681 0 0 1 -12.7236765,-2.82695 11.554261,10.745681 0 0 1 -1.7316324,-12.05919" />
-    <ellipse
-       style="fill:#fff000;fill-opacity:1;fill-rule:nonzero;stroke:#ffff00;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       id="path829"
-       cx="20.070522"
-       cy="128.74472"
-       rx="12.341555"
-       ry="2.0789979" />
     <ellipse
        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffcd00;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="path848"

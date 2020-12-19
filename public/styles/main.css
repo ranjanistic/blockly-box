@@ -7,7 +7,7 @@ body {
 }
 canvas {
   background-color: #c8c9e9;
-  box-shadow: 4px 2px 24px #00000022;
+  box-shadow: 4px 2px 24px #0503037e;
   border: solid black 4px;
   border-radius: 12px;
 }
@@ -20,7 +20,8 @@ button{
   height: 600px;
   width: 400px;
   border: solid black 4px;
-  box-shadow: 4px 2px 24px #00000022;
+  box-shadow: 4px 2px 24px #22171786;
   border-radius: 12px;
-  color:black
+  color:black;
+  font-family: 'Questrial';
 }
