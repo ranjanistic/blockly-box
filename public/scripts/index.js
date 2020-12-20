@@ -11,6 +11,7 @@ class BlocklyWorkspace {
     this.initActions();
     this.game = new Game(this.level);
     this.game.setScore();
+    alert("Click \'Displacements\' to choose blocks for movement.")
   }
 
   /**
