@@ -30,10 +30,27 @@ gh repo clone ranjanistic/blockly-box
 
 ## Canvas components
 
+The canvas area encloses vector graphics as elements.
 
 ## How I did it
 
+The following steps roughly explain the process.
 
+- Read blockly documentation and use cases, and started with it.
+
+- Started working on page structure, with HTML and CSS.
+
+- Took reference for HTML5 Canvas, and created area
+
+- Finalized required blockly scripts, and created custom blocks and associated functions.
+
+- Class based approach, several methods for atomic controls for canvas elements, which were vector graphics created by me.
+
+- Created logic for simple case, tried and tested controls for atomic methods.
+
+- Extended the logic for higher levels of game, tried tested, and implemented score storage.
+
+- Finally deployed via Firebase, as no backend code was required for any of the task.
 
 ## References
 
