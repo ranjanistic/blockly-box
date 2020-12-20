@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="img/gift.png"/>
+    <meta name="theme-color" content="#0a376b" />
+    <meta name="description" content="A pick & drop game using blockly."/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
@@ -14,6 +17,41 @@
     <script src="blockly/en.js"></script>
     <script src="scripts/index.js"></script>
     <title>Blockly Box</title>
+    <meta name="application-name" content="Blockly Box" />
+    <meta property="og:title" content="Blockly Box" />
+    <meta property="og:type" content="tools" />
+    <meta property="og:url" content="https://blocklybox.web.app/" />
+    <meta property="og:locale" content="en-US" />
+    <meta
+      property="og:description"
+      content="A pick & drop game using blockly."
+    />
+    <meta
+      property="og:image"
+      content="https://blocklybox.web.app/img/gift.png"
+    />
+    <meta property="og:site_name" content="Blockly Box" />
+    <meta
+      name="favicon"
+      content="https://blocklybox.web.app/favicon.ico"
+    />
+    <meta name="twitter:title" content="Blockly Box" />
+    <meta
+      name="twitter:description"
+      content="A pick & drop game using blockly."
+    />
+    <meta
+      name="twitter:image"
+      content="https://blocklybox.web.app/img/gift.png"
+    />
+    <meta name="twitter:site" content="@ranjanistic" />
+    <meta name="twitter:creator" content="@ranjanistic" />
+    <meta name="twitter:url" content="https://blocklybox.web.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="linkedin:card"
+      content="https://blocklybox.web.app/img/gift.png"
+    />
   </head>
   <body>
     <div class="w3-animate-top w3-padding-small w3-round w3-shadow">
@@ -35,6 +73,7 @@
       <button class="w3-button w3-circle w3-ripple w3-grey" id="undo"><i class="fa fa-undo" aria-hidden="true"></i></button>
       <button class="w3-button w3-circle w3-ripple w3-teal" id="redo"><i class="fa fa-redo" aria-hidden="true"></i></button>
       <button class="w3-button w3-circle w3-ripple w3-indigo" id="shoot"><i class="fa fa-play" aria-hidden="true"></i></button>
+      &nbsp;<span class="w3-padding-small" style="font-size: 24px;"><span id="score">--</span> points</span><i class="fa fa-trash" id="clearScore" aria-hidden="true"></i>
     </div>
 
     <div class="w3-col w3-twothird w3-animate-right">
